@@ -1,10 +1,12 @@
 # Reference-Guided Genome Assembly and Assessment of Two _Daphnia pulicaria_ Strains
 
 ### Background
-> maybe we can include our Abstract, plus some coding logic here
 
+#### Paper Abstract
+> maybe we can include our Abstract
 
 #### Repository Purpose
+> plus some coding logic here
 
 ### Script Usage
 > explanation of the scripts (hierarchially, from main array + all subsequent scripts within)
