@@ -4,7 +4,7 @@
 > maybe we can include our Abstract, plus some coding logic here
 
 
-### Purpose of this Repository
+#### Repository Purpose
 
 ### Script Usage
 > explanation of the scripts (hierarchially, from main array + all subsequent scripts within)
