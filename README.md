@@ -8,8 +8,12 @@
 #### Repository Purpose
 > plus some coding logic here
 
-### Script Usage
+### Usage
 > explanation of the scripts (hierarchially, from main array + all subsequent scripts within)
+
+#### Reference-Guided Genome Assembly Pipeline
+
+#### Blobtools Contamination Screening Pipeline
 
 ### HPC Scheduler Modifications
 > adding information about headers for PBS vs Slurm scheduler 
