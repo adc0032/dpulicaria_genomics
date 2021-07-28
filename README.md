@@ -13,18 +13,13 @@ plus some coding logic here
 > explanation of the scripts (hierarchially, from main array + all subsequent scripts within)
 
 1. Reference-Guided Genome Assembly Pipeline
-   - refg_assem_array.sh 
-> array script for running reference guided assembly 
-   - run_fastqscreen.sh
-> support script for running fastqscreen for quality control
-   - run_indexgen.sh
-> support script for indexing the reference genome
-   - run_bwa.sh
-> support script for mapping using Burrows-Wheeler Aligner
-   - run_GATK.sh
->
-   - run_consensus.sh
->
+   - refg_assem_array.sh array script for running reference guided assembly
+   - support scripts: 
+     - run_fastqscreen.sh support script for running fastqscreen for quality control
+     - run_indexgen.sh support script for indexing the reference genome
+     - run_bwa.sh support script for mapping using Burrows-Wheeler Aligner
+     - run_GATK.sh
+     - run_consensus.sh
 2. Blobtools Contamination Screening Pipeline
 
 ### HPC Scheduler Modifications
