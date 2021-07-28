@@ -17,14 +17,24 @@ plus some coding logic here
      - array script for running reference guided assembly
    - support scripts: 
      - run_fastqscreen.sh 
-       - support script for running fastqscreen for quality control
+       - running fastqscreen for quality control
      - run_indexgen.sh 
-       - support script for indexing the reference genome
+       - indexing the reference genome
      - run_bwa.sh 
-       - support script for mapping using Burrows-Wheeler Aligner
+       - mapping using Burrows-Wheeler Aligner
      - run_GATK.sh
      - run_consensus.sh
 2. Blobtools Contamination Screening Pipeline
+   - blobtools_array.sh
+     - array script
+   - support scripts:
+     - download_ncbi.sh
+       -
+     - run_nrdmnd.sh
+       -
+     - run_blobtaxify.sh
+       -
+     - run_blobfin.sh
 
 ### HPC Scheduler Modifications
 > PBS and SLURM schedulers use slightly different commands to run jobs. These scripts were run on both schedulers. Below are example headers for bash scripts that demonstrate the subtle differences in commands between the two.   
