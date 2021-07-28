@@ -29,11 +29,8 @@ plus some coding logic here
      - array script
    - support scripts:
      - download_ncbi.sh
-       -
      - run_nrdmnd.sh
-       -
      - run_blobtaxify.sh
-       -
      - run_blobfin.sh
 
 ### HPC Scheduler Modifications
