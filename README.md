@@ -16,7 +16,7 @@
 #### Blobtools Contamination Screening Pipeline
 
 ### HPC Scheduler Modifications
-> adding information about headers for PBS vs Slurm scheduler 
+> PBS and SLURM schedulers use slightly different commands to run jobs. These scripts were run on both schedulers. Below are example headers for bash scripts that demonstrate the subtle differences in commands between the two.   
 # ----------------PBS Parameters----------------- #
 #PBS -l nodes=1:ppn=10,mem=100gb,walltime=15:00:00:00
 ##send email -M mailuser -m ae is abort; end
