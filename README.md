@@ -6,7 +6,8 @@
 > maybe we can include our Abstract
 
 #### Repository Purpose
-> plus some coding logic here
+> This repository contains all scripts used to perform reference-guided genomic assembly and screen for contaminants on a supercomputer as was done in Clark et al. 2021. These scripts are designed to assemble the genomes for two strains of _Daphnia pulicaria_ using _Daphnia pulex_ (PA42) as a reference. This repository presents a simplified workflow/pipeline to run these analyses on a supercomputer and are separated into two parts, genomic assembly and contaminant screening.
+plus some coding logic here
 
 ### Usage
 > explanation of the scripts (hierarchially, from main array + all subsequent scripts within)
