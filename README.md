@@ -23,10 +23,12 @@ This repository contains all scripts used to perform reference-guided genomic as
      - run_bwa.sh 
        - mapping using Burrows-Wheeler Aligner
      - run_GATK.sh
+       - performing local realignment, identifying SNPs and INDELs, and filtering identified variants 
      - run_consensus.sh
+       - inserting SNPs into the reference genome to create consensus sequence and masking zero coverage and INDEL regions 
 2. Blobtools Contamination Screening Pipeline
    - blobtools_array.sh
-     - array script
+     - array script for screening for contaminants
    - support scripts:
      - download_ncbi.sh
      - run_nrdmnd.sh
@@ -35,7 +37,7 @@ This repository contains all scripts used to perform reference-guided genomic as
 
 ### HPC Scheduler Modifications
 PBS and SLURM schedulers use slightly different commands to run jobs. These scripts were run on both schedulers. Below are example headers for bash scripts that demonstrate the subtle differences in commands between the two.   
-##### ----------------PBS Parameters----------------- #
+##### PBS Parameters
 > ###### #PBS -l nodes=1:ppn=10,mem=100gb,walltime=15:00:00:00
 > ###### ##send email -M mailuser -m ae is abort; end
 > ###### #PBS -M 
@@ -45,7 +47,7 @@ PBS and SLURM schedulers use slightly different commands to run jobs. These scri
 > ###### #PBS -j oe
 > ###### ##array
 > ###### #PBS -t 1-2
-##### ----------------SLURM Parameters-------------- #
+##### SLURM Parameters
 > ###### ##nodes
 > ###### #SBATCH -N 1
 > ###### ##ppn
