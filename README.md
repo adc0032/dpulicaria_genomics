@@ -14,7 +14,7 @@ This repository contains all scripts used to perform reference-guided genomic as
 
 
 ### Usage
-To use these scripts, you will need to update the header information in the array scripts based on your HPC (see [HPC Scheduler Modifications](#hpc-scheduler-modifications) below). **Certain regions of the code need to be specified for the user and their system.** The main regions of the code that require these updates are the variables within the array scripts (which can be fitted for a single job by hard-coding the `sm` variable). The save directory for the additional script will also need an update of the path. 
+To use these scripts, you will need to update the header information in the array scripts based on your HPC (see [HPC Scheduler Modifications](#hpc-scheduler-modifications) below). **Certain regions of the code need to be specified for the user and their system.** The main regions of the code that require these updates are the variables within the array scripts (which can be fitted for a single job by hard-coding the `sm` variable). The save directory (`sd`) for the additional script will also need an update of the path. 
 
 
 1. Reference-Guided Genome Assembly Pipeline
