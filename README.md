@@ -2,6 +2,7 @@
 
 ### Background
 
+![Heads and Tails!: A Close-Up of *Daphnia pulicaria*](img/Daphnia_coverart_sub.png)
 #### Paper Abstract
    *Daphnia* species are well-suited for studying local adaptation and evolutionary responses to stress(ors) including those caused by algal blooms. Algal blooms, characterized by an overgrowth (bloom) of cyanobacteria, are detrimental to the health of aquatic and terrestrial members of freshwater ecosystems. Some strains of *Daphnia pulicaria* have demonstrated resistance to toxic algae and the ability to mitigate toxic algal blooms. Understanding the genetic mechanism associated with this toxin resistance requires adequate genomic resources. Using whole-genome sequence data mapped to the *Daphnia pulex* reference genome (PA42), we present reference-guided draft assemblies from one tolerant and one sensitive strain of *D. pulicaria*, Wintergreen-6 (WI-6), and Bassett-411 (BA-411), respectively. Assessment of the draft assemblies reveal low contamination levels, and high levels (95%) of genic content. Reference scaffolds had coverage breadths of 98.9–99.4%, and average depths of 33X and 29X for BA-411 and WI-6, respectively. Within, we discuss caveats and suggestions for improving these draft assemblies. These genomic resources are presented with a goal of contributing to the resources necessary to understand the genetic mechanisms and associations of toxic prey resistance observed in this species.
 
